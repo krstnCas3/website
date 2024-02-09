@@ -1,0 +1,138 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'poppins' , sans-serif;
+}
+
+body {
+    background: #f4eaf1;
+}
+
+nav {
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    background: #8e83a9 ;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    height: auto;
+    width: 50px;
+    margin-right: 10px; 
+}
+
+.logo-icon{
+    margin-top: 8px;
+    margin: 8px;                                                                                                                       
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.right ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.right ul li img {
+    width: 28px;
+    margin: 0 15px;
+    
+}
+
+.icon img{
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon{
+    margin-left: 30px;
+}
+
+.search-box{
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.sb-icon{
+    margin-top: 5px;
+}
+
+
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.online {
+    position: relative;
+}
+
+.online::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff ;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+    
+}
+
+.left-sidebar {
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    
+}
+
+.right-sidebar {
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    
+}
+.main{
+    flex-basis: 47%;
+
+}
+
+.imp-links {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+}
+
+.imp-links a luh {
+    width: 25px;
+    margin-right: 15px;
+
+}

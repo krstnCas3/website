@@ -12,7 +12,7 @@ nav {
     display: flex;
     align-items:center ;
     justify-content: space-between;
-    background: #8e83a9 ;
+    background: #526D82 ;
     padding: 5px 5%;
     position: sticky;
     top: 0;
@@ -25,7 +25,7 @@ nav {
     margin-right: 10px; 
 }
 
-.logo-icon{
+.logo-icon {
     margin-top: 8px;
     margin: 8px;                                                                                                                       
 }
@@ -35,47 +35,36 @@ nav {
     align-items: center;
 }
 
-.right ul li {
-    list-style: none;
-    display: inline-block;
-}
-
-.right ul li img {
-    width: 28px;
-    margin: 0 15px;
-    
-}
-
-.icon img{
+.icon img {
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.icon{
+.icon {
     margin-left: 30px;
 }
 
-.search-box{
+.search-box {
     background: #efefef;
-    width: 350px;
-    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 600px; 
+    border-radius: 25px;
     display: flex;
     align-items: center;
     padding: 0 15px;
 }
 
-.sb-icon{
-    margin-top: 5px;
-}
-
-
-.search-box input{
-    width: 100%;
+.search-box input {
+    flex: 1;
     background: transparent;
-    padding: 10px;
+    padding: 15px;
     outline: none;
     border: 0;
+}
+
+.sb-icon {
+    margin-top: 5px;
 }
 
 .online {
@@ -102,27 +91,31 @@ nav {
     
 }
 
+.right-sidebar {
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+    background: #181818;
+    padding: 20px;
+    background-repeat: 4px;
+    color: #41db51;
+}
+
 .left-sidebar {
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
     
-}
+} 
 
-.right-sidebar {
-    flex-basis: 25%;
-    position: sticky;
-    top: 70px;
-    align-self: flex-start;
-    
-}
 .main{
     flex-basis: 47%;
 
 }
 
-.imp-links {
+.imp-links a, .shortcut-links a  {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -130,9 +123,67 @@ nav {
     color: #626262;
     width: fit-content;
 }
+.home a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #181818;
+    width: fit-content;
+    font-weight: 600;
+}
 
-.imp-links a luh {
+.home {
+    border-bottom: 2px solid #ccc;
+}
+
+.imp-links a img {
     width: 25px;
     margin-right: 15px;
+}
 
+.imp-links a:last-child {
+    color: #181818;
+}
+
+.imp-links{
+    border-bottom: 1px solid #ccc;
+}
+
+.imp-links h4{
+    font-weight: 600;
+    font-style: 16px;
+    color: #626262;
+    margin: 25px 0;
+}
+
+.shortcut-links a img {
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.shortcut-links p {
+    margin: 25px 0;
+    color: #626262;
+    font-weight: 500;
+}
+
+.sidetitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.sidetitle h4 {
+    font-weight: 500;
+    font-style: 16px;
+}
+
+.sidetitle a {
+    text-decoration: none;
+    color: #626262;;
+    font-style: 12px;
 }

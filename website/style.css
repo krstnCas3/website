@@ -1,6 +1,7 @@
 * {
     padding: 0%;
     margin: 0%;
+    margin-bottom: 1%;
     font-family: 'poppins' , sans-serif;
 }
 
@@ -12,9 +13,8 @@ nav {
     display: flex;
     align-items:center ;
     justify-content: space-between;
-    background: #526D82 ;
+    background: #A19DCA ;
     padding: 5px 5%;
-    position: sticky;
     top: 0;
     z-index: 100;
 }
@@ -22,12 +22,14 @@ nav {
 .logo {
     height: auto;
     width: 50px;
-    margin-right: 10px; 
+    margin-top: 20px;
+    margin-right: 15px; 
 }
 
 .logo-icon {
-    margin-top: 8px;
-    margin: 8px;                                                                                                                       
+    margin-top: 20px;
+    margin: 8px;
+
 }
 
 .left, .right {
@@ -42,16 +44,15 @@ nav {
 }
 
 .icon {
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 100px;
 }
 
 .search-box {
     background: #efefef;
-    margin: 0 auto;
-    max-width: 600px; 
+    margin-top: 20px;
+    max-width: 650px; 
     border-radius: 25px;
-    display: flex;
-    align-items: center;
     padding: 0 15px;
 }
 
@@ -96,10 +97,10 @@ nav {
     position: sticky;
     top: 70px;
     align-self: flex-start;
-    background: #181818;
+    background: #FCEED1;
     padding: 20px;
     background-repeat: 4px;
-    color: #41db51;
+    color: #393E46;
 }
 
 .left-sidebar {
@@ -120,7 +121,7 @@ nav {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    color: #626262;
+    color: #393E46;
     width: fit-content;
 }
 .home a {
@@ -128,32 +129,37 @@ nav {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    color: #181818;
+    color: #393E46;
     width: fit-content;
     font-weight: 600;
 }
 
-.home {
-    border-bottom: 2px solid #ccc;
+.home i {
+    width: 10px;
+    margin-right: 15px;
 }
 
-.imp-links a img {
-    width: 25px;
+.home {
+    border-bottom: 1px solid #393E46;
+}
+
+.imp-links a i {
+    width: 10px;
     margin-right: 15px;
 }
 
 .imp-links a:last-child {
-    color: #181818;
+    font-size: smaller;
 }
 
 .imp-links{
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #393E46;
 }
 
-.imp-links h4{
-    font-weight: 600;
-    font-style: 16px;
-    color: #626262;
+.imp-links h4, .shortcut-links h4{
+    font-weight: 700;
+    font-style: 20px;
+    color: #393E46;
     margin: 25px 0;
 }
 
@@ -165,7 +171,7 @@ nav {
 
 .shortcut-links p {
     margin: 25px 0;
-    color: #626262;
+    color: #393E46;
     font-weight: 500;
 }
 
@@ -184,6 +190,6 @@ nav {
 
 .sidetitle a {
     text-decoration: none;
-    color: #626262;;
+    color: #393E46;
     font-style: 12px;
 }

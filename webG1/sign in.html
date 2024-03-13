@@ -15,19 +15,20 @@
         <h3>WELCOME TO SECRET</h3>
         <p><small>  A community of over a hundreds of members share secrets and ideas.</p></small>
         <form>
-            <form action="/login" method="post"></form>
-            <div class="input-group">
-                <input class="input" placeholder="Username:" required type="text" id="username">
-                <label class="label" for="username"></label>
-            </div>
-            <div class="input-group">
-                <input class="input" placeholder="Password:" required type="password" id="password">
-                <label class="label" for="password"></label>
-            </div>            
-            <small><p>Not registred?<a href="register.html"> Create an account!</p></small></a>
-            <div class="buttons">
-                <button class="b1"><a href="secret.html">Log In</a></button>
-            </div>
+            <form action="update_settings.php" method="post">
+                <div class="input-group">
+                    <input class="input" placeholder="Username:" required type="text" id="email">
+                    <label class="label" for="username"></label>
+                </div>
+                <div class="input-group">
+                    <input class="input" placeholder="Password:" required type="password" id="password">
+                    <label class="label" for="password"></label>
+                </div>            
+                <small><p>Not registred?<a href="register.html"> Create an account!</p></small></a>
+                <div class="buttons">
+                    <button class="b1"><a href="secret.html">Log In</a></button>
+                </div>
+            </form>
             <script>
                 document.addEventListener('keydown', function(event) {
         if (event.key === 'Enter') {

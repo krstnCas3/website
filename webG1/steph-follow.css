@@ -1,0 +1,105 @@
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: #A19DCA;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container img {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container i {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.details h3 {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.details small {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.following button {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A19DCA;
+    width: 90px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.following a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+.bio {
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color:  #E6BABE;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 90px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.buttons button {
+    margin: 0 10px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    font-weight: 600;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #333;
+}
